@@ -1,0 +1,344 @@
+{
+   "inputs": {
+      "enter_email": "Ingresar correo electrónico",
+      "enter_password": "Ingresar contraseña",
+      "enter_name": "Ingresar nombre",
+      "enter_last_names": "Ingresar apellidos",
+      "enter_date": "Ingresar fecha",
+      "enter_phone": "Ingresar teléfono",
+      "select_sex": "Selecciona un sexo",
+      "enter_nationality": "Ingresar nacionalidad",
+      "select_country": "Selecciona un país",
+      "select_type": "Selecciona un tipo",
+      "enter_number": "Ingresar número",
+      "select_city": "Selecciona una ciudad",
+      "enter_address": "Ingresar dirección",
+      "select_headquarter": "Selecciona una sede",
+      "select_therapist": "Selecciona un terapeuta",
+      "any_therapist": "Cualquier terapeuta",
+      "select_schedule": "Selecciona un horario",
+      "enter_code": "Ingresar código"
+   },
+   "texts": {
+      "users": {
+         "email": "Correo electrónico",
+         "password": "Contraseña",
+         "new_password": "Contraseña nueva",
+         "confirm_new_password": "Confirmar contraseña nueva",
+         "old_password": "Contraseña antigua",
+         "confirm_password": "Confirmar contraseña",
+         "name": "Nombre",
+         "last_names": "Apellidos",
+         "birth_date": "Fecha de nacimiento",
+         "phone": "Teléfono",
+         "sex": "Sexo",
+         "nationality": "Nacionalidad",
+         "residence_country": "País de residencia",
+         "identification_type": "Tipo de identificación",
+         "identification_number": "Número de identificación",
+         "residence_city": "Ciudad de residencia",
+         "address": "Dirección",
+         "age": "Edad"
+      },
+      "flows": {
+         "back": "Atrás",
+         "continue": "Continuar",
+         "create_account": "Crear cuenta",
+         "activate_account": "Activar cuenta",
+         "verification_code": "Código de verificación",
+         "search": "Buscar",
+         "previous": "Anterior",
+         "next": "Siguiente",
+         "login": "Inicio de sesión",
+         "see_profile": "Ver perfil",
+         "sign_out": "Cerrar sesión",
+         "book": "Agendar",
+         "cancel": "Cancelar",
+         "loading": "Cargando",
+         "see_details": "Ver detalles",
+         "end": "Finalizar",
+         "change_date": "Cambiar fecha",
+         "cancel_appointment": "Cancelar cita",
+         "reschedule": "Reagendar",
+         "understood": "Entendido",
+         "edit_profile": "Editar perfil",
+         "personal_data": "Datos personales",
+         "contact_data": "Datos de contacto",
+         "login_and_security": "Ingreso y seguridad",
+         "change_password": "Cambiar contraseña",
+         "change": "Cambiar",
+         "forms": "Formularios",
+         "upload_image": "Subir imagen",
+         "save": "Guardar",
+         "my_forms": "Mis formularios",
+         "fill_form": "Llenar formulario",
+         "upload_file": "Cargar archivo",
+         "download_form": "Descargar formulario",
+         "download_clinic_history": "Descargar historial medico",
+         "consent": "Consentimiento",
+         "sign_up": "Regístrate",
+         "send_form": "Enviar formulario",
+         "copy_payment_link": "Copiar enlace de pago",
+         "generate_payment_link": "Generar enlace de pago",
+         "complete_profile": "Completar perfil",
+         "complete_profile_large": "Completa los datos de tu perfil para poder hacer uso del portal de clientes",
+         "update_data": "Actualizar datos",
+         "clinic_history": "Historia clínica",
+         "my_profile": "Mi perfil",
+         "completed": "Completado",
+         "see_uploaded_file": "Ver archivo subido",
+         "book_appointment": "Agendar cita",
+         "see_appointments": "Ver citas agendadas",
+         "reupload_file": "Volver a cargar el archivo",
+         "password_changed": "Has cambiado tu contraseña de ingreso"
+      },
+      "appointments": {
+         "my_appointments": "Mis citas",
+         "active_appointments": "Citas agendadas",
+         "appointments_history": "Historial de citas",
+         "canceled": "Cancelada",
+         "rated": "Calificada",
+         "rate_service": "Calificar servicio",
+         "pending": "Pendiente",
+         "to_pay": "Por pagar",
+         "closed": "Finalizada",
+         "missed": "No asistió",
+         "attended": "Asistió",
+         "appointment_details": "Detalles de cita",
+         "change_date_and_hour": "Cambia la fecha y hora de tu cita"
+      },
+      "services": {
+         "service": "Servicio",
+         "services": "Servicios",
+         "service_details": "Detalles de servicio",
+         "per_person": "Por persona",
+         "per_session": "Por sesión",
+         "book_service": "Agendar servicio",
+         "book_package": "Agendar paquete",
+         "book_your_appointment": "Agenda tu cita",
+         "payment_summary": "Resumen del pago",
+         "payment_method": "Método de pago"
+      },
+      "various": {
+         "step": "Paso",
+         "session": "Sesión",
+         "sessions": "Sesiones",
+         "tax": "Impuesto",
+         "total": "Total",
+         "available_dates": "Fechas disponibles",
+         "available_hours": "Horarios disponibles",
+         "no_available_hours": "No hay horarios para mostrar",
+         "select_date_and_hour_large": "Selecciona una fecha y un horario en el que quieras tomar el servicio",
+         "changes_saved": "Tus cambios se han guardado",
+         "see_changes_on_profile": "Podrás ver tus cambios actualizados en información de perfil",
+         "select_an_option": "Selecciona una opción",
+         "of": "De"
+      },
+      "attributes": {
+         "seconds": "Segundos",
+         "date": "Fecha",
+         "hour": "Hora",
+         "therapy": "Terapia",
+         "therapist": "Terapeuta",
+         "place": "Lugar",
+         "duration": "Duración",
+         "description": "Descripción",
+         "headquarter": "Sede",
+         "payment_state": "Estado de pago",
+         "state": "Estado",
+         "address": "Dirección",
+         "empty": "No registra",
+         "main_headquarter": "Sede principal"
+      },
+      "roles": {
+         "therapist": "Terapeuta",
+         "patient": "Paciente",
+         "admin": "Administrador",
+         "receptionist": "Recepcionista",
+         "software_owner": "Software owner"
+      },
+      "time": {
+         "min": "Min",
+         "sec": "Seg",
+         "hour": "Hora",
+         "min_fl": "M",
+         "sec_fl": "S",
+         "hour_fl": "H"
+      },
+      "errors": {
+         "unexpected_error": "Ocurrió un error inesperado.",
+         "error": "Ocurrió un error",
+         "excuse": {
+            "part_1": "Lo sentimos, intenta de nuevo mas tarde.",
+            "part_2": "Si el error persiste, contáctanos."
+         },
+         "size_larger": "El tamaño es mayor al indicado",
+         "type_invalid": "Ingresar un tipo de archivo valido",
+         "unavailable_mail": "El correo electrónico ingresado no está disponible."
+      },
+      "genres": {
+         "female": "Mujer",
+         "male": "Hombre",
+         "other": "Otro"
+      },
+      "payment_methods": {
+         "card": "Tarjeta",
+         "cash": "Efectivo",
+         "online": "Online"
+      }
+   },
+   "components": {
+      "cancelation_confirm_modal": {
+         "title": "¿Estás seguro de cancelar el proceso?",
+         "description": "Tus cambios no serán guardados"
+      },
+      "forms_table": {
+         "columns": {
+            "form_name": "Nombre del formulario"
+         }
+      },
+      "upload_file_input": {
+         "title": "Haz click o arrastra el archivo para subirlo",
+         "disclaimer": "tamaño de archivo no superior a 10 MB",
+         "replace_file": "Reemplazar archivo",
+         "open_preview": "Abrir previsualización"
+      },
+      "sign_out_modal": {
+         "title": "¿Estás seguro que quieres cerrar sesión?"
+      }
+   },
+   "pages": {
+      "so": {
+         "auth": {
+            "login": {
+               "title": "¡Bienvenido de vuelta!",
+               "forgot_my_password": "Olvidé mi contraseña",
+               "login": "Iniciar sesión"
+            }
+         }
+      },
+      "auth": {
+         "login": {
+            "title": "¡Nos da gusto verte!",
+            "sub_title": "Por favor, introduce tu información para iniciar sesión",
+            "forgot_my_password": "Olvidé mi contraseña",
+            "login": "Iniciar sesión",
+            "doesn't_have_account": "¿No tienes cuenta?"
+         },
+         "sign_up": {
+            "title": "Crear cuenta",
+            "description": "Llena este formulario y sigue los pasos para activar tu cuenta",
+            "agree_policies": "Estoy de acuerdo con la política de tratamiento de datos de la organización",
+            "success_view": {
+               "title": "Verifica tu correo",
+               "description_1": "Ingresa a tu correo y sigue las indicaciones para activar tu cuenta.",
+               "description_2": "Si tu correo no se encuentra en la bandeja de inbox, no olvides chequear también tu bandeja de spam.",
+               "resend_code": "Reenviar correo",
+               "go_back_to": "Volver a",
+               "you_can_resend_the_code": "Puedes enviar otro código en "
+            }
+         },
+         "reset_password": {
+            "title": "Restablecer contraseña",
+            "send_code": {
+               "sub_title": "Ingresa el correo electrónico asociado a tu cuenta",
+               "description": "Enviaremos un correo con un código de restablecimiento de tu contraseña."
+            },
+            "set_password": {
+               "sub_title": "Ingresa el código de verificación",
+               "description_1": "Hemos enviado un código de verificación al correo",
+               "description_2": "Recuerda usar caracteres especiales y números para que tu contraseña sea más segura."
+            },
+            "success_modal": {
+               "title": "¡Tu contraseña ha sido cambiada con éxito!",
+               "description": "Ahora puedes iniciar sesión con tu nueva contraseña."
+            }
+         },
+         "activate_account": {
+            "code_flow": {
+               "title": "Activar cuenta",
+               "description": "Ingresa el correo electrónico y el código que recibiste",
+               "resend_code": "Reenviar código de verificación",
+               "resend_code_in": "Puedes enviar otro código en "
+            },
+            "password_flow": {
+               "title": "Asignar contraseña",
+               "description": "Crea una contraseña para tu cuenta"
+            },
+            "success_modal": {
+               "title": "¡Haz activado tu cuenta!",
+               "description": "Ahora podrás iniciar sesión.",
+               "go_to_login": "Ir a inicio de sesión"
+            }
+         }
+      },
+      "patient": {
+         "services": {
+            "title": "Buscar servicios",
+            "book": {
+               "step_1": {
+                  "available_dates_description": "Selecciona una fecha y un horario en el que quieras tomar el servicio"
+               },
+               "success_modal": {
+                  "title": "Tu cita ha sido agendada con éxito",
+                  "description": "Podrás ver los detalles de tu cita en la sección “Mis citas”"
+               },
+               "success_modal_package": {
+                  "title": "Tus citas han sido agendadas con éxito",
+                  "description": "Podrás ver los detalles de tus citas en la sección “Mis citas”"
+               }
+            }
+         },
+         "appointments": {
+            "reschedule": {
+               "success_modal": {
+                  "title": "Tu cita ha sido reagendada con éxito",
+                  "description": "Podrás ver los detalles de tu cita en la sección “Mis citas”"
+               },
+               "unavailable_modal": {
+                  "title": "Ya no puedes cambiar la fecha ni cancelar",
+                  "description_1": "Lo sentimos, solo puedes cancelar o cambiar la fecha y hora",
+                  "description_2": "hasta ",
+                  "description_3": " horas antes de la cita."
+               }
+            },
+            "rating": {
+               "labels": {
+                  "quality": "Calidad del servicio recibido",
+                  "punctuality": "Puntualidad en la atención",
+                  "kindness": "Amabilidad del Terapeuta",
+                  "knowledge": "Nivel de conocimiento"
+               },
+               "ratings": {
+                  "very_bad": "Muy mala",
+                  "bad": "Mala",
+                  "regular": "Regular",
+                  "good": "Buena",
+                  "very_good": "Muy buena"
+               },
+               "title": "¡Valoramos tu opinión!",
+               "description": "Es un placer contar con tu preferencia por nuestros servicios. En búsqueda constante de la excelencia, te invitamos a participar en nuestra encuesta de satisfacción. Tus valiosos comentarios nos guiarán para adaptarnos aún más a tus necesidades y superar expectativas. Agradecemos tu tiempo y confianza al compartir tus opiniones.",
+               "sub_title": "Sobre la atención recibida durante la sesión",
+               "success_modal": {
+                  "title": "¡Tus respuestas se han enviado con éxito!"
+               }
+            },
+            "cancel_confirmation_modal": {
+               "title": "¿Estás seguro de que quieres cancelar tu cita?"
+            }
+         },
+         "profile": {
+            "my_profile": {
+               "sub_title": "Descarga los formularios para poder acceder a nuestros servicios.",
+               "description": "No olvides que antes de tu sesión con tu terapeuta asignado deberás tener completo y firmado los formularios correspondientes para que puedas ser atendido."
+            },
+            "forms": {
+               "uploaded_successfully": {
+                  "title": "Formulario enviado de manera exitosa",
+                  "description": "Tu formulario fue enviado con éxito"
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,344 @@
+{
+   "inputs": {
+      "enter_email": "Enter email",
+      "enter_password": "Enter password",
+      "enter_name": "Enter name",
+      "enter_last_names": "Enter last name",
+      "enter_date": "Enter date",
+      "enter_phone": "Enter phone",
+      "select_sex": "Select a sex",
+      "enter_nationality": "Enter nationality",
+      "select_country": "Select a country",
+      "select_type": "Select a type",
+      "enter_number": "Enter number",
+      "select_city": "Select a city",
+      "enter_address": "Enter address",
+      "select_headquarter": "Select a headquarter",
+      "select_therapist": "Select a therapist",
+      "any_therapist": "Any therapist",
+      "select_schedule": "Select schedule",
+      "enter_code": "Enter code"
+   },
+   "texts": {
+      "users": {
+         "email": "Email",
+         "password": "Password",
+         "new_password": "New password",
+         "confirm_new_password": "Confirm new password",
+         "old_password": "Old password",
+         "confirm_password": "Confirm Password",
+         "name": "Name",
+         "last_names": "Surnames",
+         "birth_date": "Birth date",
+         "phone": "Phone",
+         "sex": "Sex",
+         "nationality": "Nationality",
+         "residence_country": "Country of residence",
+         "identification_type": "Identification type",
+         "identification_number": "Identification number",
+         "residence_city": "City of residence",
+         "address": "Address",
+         "age": "Age"
+      },
+      "flows": {
+         "back": "Back",
+         "continue": "Continue",
+         "create_account": "Create Account",
+         "activate_account": "Activate account",
+         "verification_code": "Verification code",
+         "search": "Search",
+         "previous": "Previous",
+         "next": "Next",
+         "login": "Login",
+         "see_profile": "See profile",
+         "sign_out": "Sign out",
+         "book": "Schedule",
+         "cancel": "Cancel",
+         "loading": "Loading",
+         "see_details": "See details",
+         "end": "Finish",
+         "change_date": "Change date",
+         "cancel_appointment": "Cancel appointment",
+         "reschedule": "Reschedule",
+         "understood": "Understood",
+         "edit_profile": "Edit profile",
+         "personal_data": "Personal information",
+         "contact_data": "Contact information",
+         "login_and_security": "Entry and security",
+         "change_password": "Change Password",
+         "change": "Change",
+         "forms": "Forms",
+         "upload_image": "Upload image",
+         "save": "Save",
+         "my_forms": "My forms",
+         "fill_form": "Fill form",
+         "upload_file": "Upload file",
+         "download_form": "Download form",
+         "download_clinic_history": "Download medical history",
+         "consent": "Consent",
+         "sign_up": "Sign up",
+         "send_form": "Send form",
+         "copy_payment_link": "Copy payment link",
+         "generate_payment_link": "Generate payment link",
+         "complete_profile": "Complete profile",
+         "complete_profile_large": "Complete your profile data to be able to use the customer portal",
+         "update_data": "Update data",
+         "clinic_history": "Clinic history",
+         "my_profile": "My profile",
+         "completed": "Completed",
+         "see_uploaded_file": "See uploaded file",
+         "book_appointment": "Book appointment",
+         "see_appointments": "See active appointments",
+         "reupload_file": "Reupload file",
+         "password_changed": "You have changed your password"
+      },
+      "appointments": {
+         "my_appointments": "My appointments",
+         "active_appointments": "Scheduled appointments",
+         "appointments_history": "Appointments history",
+         "canceled": "Cancelled",
+         "rated": "Rated",
+         "rate_service": "Rate service",
+         "pending": "Pending",
+         "to_pay": "To pay",
+         "closed": "Closed",
+         "missed": "Missed",
+         "attended": "Attended",
+         "appointment_details": "Appointment details",
+         "change_date_and_hour": "Cambia la fecha y hora de tu cita"
+      },
+      "services": {
+         "service": "Service",
+         "services": "Services",
+         "service_details": "Service details",
+         "per_person": "Per person",
+         "per_session": "Per session",
+         "book_service": "Book service",
+         "book_package": "Book package",
+         "book_your_appointment": "Book your appointment",
+         "payment_summary": "Payment summary",
+         "payment_method": "Payment method"
+      },
+      "various": {
+         "step": "Step",
+         "sessions": "Sessions",
+         "session": "Session",
+         "tax": "Tax",
+         "total": "Total",
+         "available_dates": "Available dates",
+         "available_hours": "Available times",
+         "no_available_hours": "There are no times to show",
+         "select_date_and_hour_large": "Select a date and time when you want to take the service",
+         "changes_saved": "Your changes have been saved",
+         "see_changes_on_profile": "You will be able to see your updated changes in profile information",
+         "select_an_option": "Select an option",
+         "of": "Of"
+      },
+      "attributes": {
+         "seconds": "Seconds",
+         "date": "Date",
+         "hour": "Hour",
+         "therapy": "Therapy",
+         "therapist": "Therapist",
+         "place": "Place",
+         "duration": "Duration",
+         "description": "Description",
+         "headquarter": "Headquarter",
+         "payment_state": "Payment status",
+         "state": "State",
+         "address": "Address",
+         "empty": "Empty",
+         "main_headquarter": "Main headquarter"
+      },
+      "roles": {
+         "therapist": "Therapist",
+         "patient": "Patient",
+         "admin": "Administrator",
+         "receptionist": "Receptionist",
+         "software_owner": "software owner"
+      },
+      "time": {
+         "min": "Min",
+         "sec": "Sec",
+         "hour": "Hour",
+         "min_fl": "M",
+         "sec_fl": "S",
+         "hour_fl": "H"
+      },
+      "errors": {
+         "unexpected_error": "An unexpected error ocurred.",
+         "error": "An error ocurred",
+         "excuse": {
+            "part_1": "Sorry, try again later.",
+            "part_2": "If the error persists, please contact us."
+         },
+         "size_larger": "The size is larger than indicated",
+         "type_invalid": "Enter a valid file type",
+         "unavailable_mail": "The email entered is not available."
+      },
+      "genres": {
+         "female": "Female",
+         "male": "Male",
+         "other": "Other"
+      },
+      "payment_methods": {
+         "card": "Card",
+         "cash": "Cash",
+         "online": "Online"
+      }
+   },
+   "components": {
+      "cancelation_confirm_modal": {
+         "title": "Are you sure to cancel the process?",
+         "description": "Your changes will not be saved"
+      },
+      "forms_table": {
+         "columns": {
+            "form_name": "Form name"
+         }
+      },
+      "upload_file_input": {
+         "title": "Click or drag the file to upload it",
+         "disclaimer": "file size no more than 10 MB",
+         "replace_file": "Replace file",
+         "open_preview": "Open preview"
+      },
+      "sign_out_modal": {
+         "title": "Are you sure you want to log out?"
+      }
+   },
+   "pages": {
+      "so": {
+         "auth": {
+            "login": {
+               "title": "Welcome back!",
+               "forgot_my_password": "I forgot my password",
+               "login": "Log in"
+            }
+         }
+      },
+      "auth": {
+         "login": {
+            "title": "We are glad to see you!",
+            "sub_title": "Please enter your information to log in",
+            "forgot_my_password": "I forgot my password",
+            "login": "Log in",
+            "doesn't_have_account": "You do not have an account?"
+         },
+         "sign_up": {
+            "title": "Create Account",
+            "description": "Fill out this form and follow the steps to activate your account",
+            "agree_policies": "I agree with the organization's data processing policy",
+            "success_view": {
+               "title": "Check your email",
+               "description_1": "Enter your email and follow the instructions to activate your account.",
+               "description_2": "If your email is not in your inbox, don't forget to also check your spam folder.",
+               "resend_code": "Resend email",
+               "go_back_to": "To return to",
+               "you_can_resend_the_code": "You can resend the code in "
+            }
+         },
+         "reset_password": {
+            "title": "Restore password",
+            "send_code": {
+               "sub_title": "Enter the email associated with your account",
+               "description": "We will send an email with a password reset code."
+            },
+            "set_password": {
+               "sub_title": "Enter the verification code",
+               "description_1": "We have sent a verification code to the email",
+               "description_2": "Remember to use special characters and numbers to make your password more secure."
+            },
+            "success_modal": {
+               "title": "Your password has been changed successfully!",
+               "description": "You can now log in with your new password."
+            }
+         },
+         "activate_account": {
+            "code_flow": {
+               "title": "Activate account",
+               "description": "Enter the email and code you received",
+               "resend_code": "Resend verification code",
+               "resend_code_in": "You can send another code in "
+            },
+            "password_flow": {
+               "title": "Assign password",
+               "description": "Create a password for your account"
+            },
+            "success_modal": {
+               "title": "You have activated your account!",
+               "description": "Now you will be able to log in.",
+               "go_to_login": "Go to login"
+            }
+         }
+      },
+      "patient": {
+         "services": {
+            "title": "Search services",
+            "book": {
+               "step_1": {
+                  "available_dates_description": "Select a date and time when you want to take the service"
+               },
+               "success_modal": {
+                  "title": "Your appointment has been successfully scheduled",
+                  "description": "You can see the details of your appointment in the “My appointments” section"
+               },
+               "success_modal_package": {
+                  "title": "Your appointments have been successfully scheduled",
+                  "description": "You can see the details of your appointments in the “My appointments” section"
+               }
+            }
+         },
+         "appointments": {
+            "reschedule": {
+               "success_modal": {
+                  "title": "Your appointment has been successfully rescheduled",
+                  "description": "You can see the details of your appointment in the “My appointments” section"
+               },
+               "unavailable_modal": {
+                  "title": "You can no longer change the date or cancel",
+                  "description_1": "Sorry, you can only cancel or change the date and time",
+                  "description_2": "up to",
+                  "description_3": "hours before the appointment."
+               }
+            },
+            "rating": {
+               "labels": {
+                  "quality": "Quality of service received",
+                  "punctuality": "Punctuality in attention",
+                  "kindness": "Kindness of the Therapist",
+                  "knowledge": "Knowledge level"
+               },
+               "ratings": {
+                  "very_bad": "Very bad",
+                  "bad": "Bad",
+                  "regular": "Regular",
+                  "good": "Good",
+                  "very_good": "Very good"
+               },
+               "title": "We value your opinion!",
+               "description": "It is a pleasure to have your preference for our services. In constant search for excellence, we invite you to participate in our satisfaction survey. Your valuable comments will guide us to adapt even more to your needs and exceed expectations. We appreciate your time and trust in sharing your opinions.",
+               "sub_title": "About the attention received during the session",
+               "success_modal": {
+                  "title": "Your responses have been successfully submitted!"
+               }
+            },
+            "cancel_confirmation_modal": {
+               "title": "Are you sure you want to cancel your appointment?"
+            }
+         },
+         "profile": {
+            "my_profile": {
+               "sub_title": "Download the forms to access our services.",
+               "description": "Don't forget that before your session with your assigned therapist you must have the corresponding forms completed and signed so that you can be treated."
+            },
+            "forms": {
+               "uploaded_successfully": {
+                  "title": "Form submitted successfully",
+                  "description": "Your form was submitted successfully"
+               }
+            }
+         }
+      }
+   }
+}

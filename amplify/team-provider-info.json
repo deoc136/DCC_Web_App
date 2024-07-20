@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-agendaahorawebapp-dev-134738-authRole",
+      "UnauthRoleArn": "arn:aws:iam::422391363513:role/amplify-agendaahorawebapp-dev-134738-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::422391363513:role/amplify-agendaahorawebapp-dev-134738-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-agendaahorawebapp-dev-134738-deployment",
+      "UnauthRoleName": "amplify-agendaahorawebapp-dev-134738-unauthRole",
+      "StackName": "amplify-agendaahorawebapp-dev-134738",
+      "StackId": "arn:aws:cloudformation:us-east-1:422391363513:stack/amplify-agendaahorawebapp-dev-134738/2dd8fdf0-d7fc-11ee-b690-0affcf52c9a9",
+      "AmplifyAppId": "d2i66on1i6n8f8"
+    },
+    "categories": {
+      "auth": {
+        "agendaahorawebapp78242aff": {
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::422391363513:role/service-role/agenda-ahora-cognito-auth",
+          "authRoleName": "agenda-ahora-cognito-auth",
+          "identityPoolId": "us-east-1:6b2be271-4c4d-46b3-bfcd-bd86d1231445",
+          "identityPoolName": "AgendaAhoraProduction",
+          "nativeClientId": "1af2h3d3n7frevhkfhg6jdm2mk",
+          "unauthRoleArn": "arn:aws:iam::422391363513:role/service-role/agenda-ahora-cognito-guest",
+          "unauthRoleName": "agenda-ahora-cognito-guest",
+          "userPoolId": "us-east-1_zb29yvXj6",
+          "userPoolName": "AgendaAhoraProduction",
+          "webClientId": "1af2h3d3n7frevhkfhg6jdm2mk"
+        }
+      }
+    }
+  }
+}

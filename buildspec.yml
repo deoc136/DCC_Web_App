@@ -1,0 +1,34 @@
+version: 0.2
+
+env:
+   variables:
+      AWS_ACCOUNT_ID: '422391363513'
+      CLUSTER: 'terapias-dev'
+      SERVICE: 'dev-bo-v7'
+      IMAGE_REPO_NAME: 'agendaahorawebapp-bo-dev'
+      IMAGE_TAG: 'latest'
+
+phases:
+   pre_build:
+      commands:
+         - aws --version
+         - echo "Logging in to Amazon ECR..."
+         - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 422391363513.dkr.ecr.us-east-1.amazonaws.com
+   build:
+      commands:
+         - echo "Building Docker image...."
+         - docker build -t agendaahorawebapp-bo-dev .
+         - echo "Tagging Docker image..."
+         - docker tag agendaahorawebapp-bo-dev:latest 422391363513.dkr.ecr.us-east-1.amazonaws.com/agendaahorawebapp-bo-dev:latest
+         - echo "Pushing Docker image to repository..."
+         - docker push 422391363513.dkr.ecr.us-east-1.amazonaws.com/agendaahorawebapp-bo-dev:latest
+
+   post_build:
+      commands:
+         - echo "Writing image definitions file..."
+         - printf '{"ImageURI":"%s"}' 422391363513.dkr.ecr.us-east-1.amazonaws.com/agendaahorawebapp-bo-dev:latest > imageDetail.json
+         - aws ecs update-service --cluster $CLUSTER --service $SERVICE --force-new-deployment
+
+artifacts:
+   files:
+      - imageDetail.json
